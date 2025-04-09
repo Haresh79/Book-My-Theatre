@@ -45,3 +45,33 @@ This is a full-stack web application for booking Odia Jatra tickets. It allows u
 
 ```bash
 git clone https://github.com/Haresh79/book-my-theatre.git
+cd book-my-theatre/backend
+npm install
+npm start
+```
+
+### Frontend Setup
+1. Admin repository:
+  ```bash
+cd book-my-theatre/frontend/admin_app
+npm install
+npm run dev
+```
+2. BookMyTheatre repository:
+```bash
+cd book-my-theatre/frontend/book_my_theater
+npm install
+npm run dev
+```
+3. Jatra Partner repository:
+ ```bash
+cd book-my-theatre/frontend/jatra_partner
+npm install
+npm run dev
+```
+
+### Key Points:
+- The setup instructions are divided for both frontend and backend.
+- Environment variable placeholders are included for Supabase and Razorpay configuration.
+- Clear instructions on how each module (Admin, Client, Jatra Troupes) works and integrates.
+- Example of how the folder structure should look for better clarity.
