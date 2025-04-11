@@ -6,7 +6,7 @@ import { Suspense, useEffect, useState } from "react"
 import Loading from "./loading"
 
 
-export default function locations() {
+export default function Locations() {
     const params = useParams()
     const location = decodeURIComponent(params.location)
     const [data, setData] = useState([])

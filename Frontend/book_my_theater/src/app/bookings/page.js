@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import Loading from "./loading";
 
 
-export default function bookings() {
+export default function Bookings() {
     const [allTickets, setAllTickets] = useState([])
     const [uId, setUId] = useState('')
     const router = useRouter()

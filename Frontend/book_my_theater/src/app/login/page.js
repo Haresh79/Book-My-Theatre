@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation"
 import { useState } from "react"
 
 
-export default function bookings() {
+export default function Login() {
 
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')

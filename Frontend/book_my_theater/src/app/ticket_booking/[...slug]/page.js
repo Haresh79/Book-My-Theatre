@@ -5,7 +5,7 @@ import axios from "axios";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-export default function seats() {
+export default function Seats() {
   const params = useParams()
   const slug = params.slug;
   const router = useRouter()

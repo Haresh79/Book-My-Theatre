@@ -5,7 +5,7 @@ import { useParams } from "next/navigation"
 import { useEffect, useState } from "react"
 import Loading from "./loading"
 
-export default function jatra() {
+export default function Jatra() {
     const params = useParams()
     const id = params.id
     const [data, setData] = useState()
