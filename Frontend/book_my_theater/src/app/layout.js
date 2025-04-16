@@ -10,7 +10,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,1,200" />
-    <Script src="https://third-party-script.js"></Script>
+   <script src="https://third-party-script.js" async />
+<script src="https://third-party-script.js" defer />
         <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
       </head>
       <body>
