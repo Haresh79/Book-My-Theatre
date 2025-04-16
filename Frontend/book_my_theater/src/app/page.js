@@ -48,7 +48,7 @@ export default function Home() {
       <section className=" mx-5 my-8 flex flex-col justify-center items-center">
         <h1 className="text-[28px] font-semibold font-nunito">Popular Locations</h1>
         <div className="grid grid-cols-3 gap-3 mt-6 text-sm">
-          <Link href="/searchby/balasore"><li className="list-none font-lato hover:text-[#6750A4]">Balasore</li></Link>
+          <Link href="/searchby/balasore/"><li className="list-none font-lato hover:text-[#6750A4]">Balasore</li></Link>
           <Link href="/searchby/cuttack"><li className="list-none font-lato hover:text-[#6750A4]">Cuttack</li></Link>
           <Link href="/searchby/puri"><li className="list-none font-lato hover:text-[#6750A4]">Puri</li></Link>
           <Link href="/searchby/rourkela"><li className="list-none font-lato hover:text-[#6750A4]">Rourkela</li></Link>
