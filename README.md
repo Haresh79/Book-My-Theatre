@@ -3,8 +3,10 @@
 This is a full-stack web application for booking Odia Jatra tickets. It allows users to book tickets for various Jatras, view Jatra details, and make payments online. The system has three main modules:
 
 - **Admin**: Admin can manage all bookings, view Jatra details, and remove Jatras.
-- <a href="https://book-my-theatre-3w99z269p-haresh-s-projects-09240394.vercel.app/">https://book-my-theatre-3w99z269p-haresh-s-projects-09240394.vercel.app/</a>
+  
 - **Client**: Clients can search for Jatras by location, book tickets, and receive digital tickets after payment.
+- - <a href="https://book-my-theatre-3w99z269p-haresh-s-projects-09240394.vercel.app/">https://book-my-theatre-3w99z269p-haresh-s-projects-09240394.vercel.app/</a>
+
 - **Jatra Troupes**: Jatra troupes can register, upload details of their upcoming Jatras, and manage offline bookings.
 
 ## Tech Stack
